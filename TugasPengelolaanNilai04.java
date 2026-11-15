@@ -19,7 +19,7 @@ public class TugasPengelolaanNilai04 {
             System.out.print("Masukkan nilai mahasiswa ke- " + (i + 1) + ":");
             nilai[i] = sc.nextInt();
             total += nilai[i];
-        }
+        } 
         double rataRata = (double) total / nilai.length;
         int tertinggi = nilai[0];
         int terendah = nilai[0];
