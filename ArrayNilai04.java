@@ -8,7 +8,7 @@ public class ArrayNilai04 {
         int jumlahTidakLulus = 0;
 
         for (int i = 0; i < nilaiAkhir.length; i ++){
-            System.out.println("Masukkan nilai mahasiswa ke- " + (i + 1) + ":");
+            System.out.print("Masukkan nilai mahasiswa ke- " + (i + 1) + ":");
             nilaiAkhir[i] = sc.nextInt();
         }
         for (int i = 0; i < nilaiAkhir.length; i ++){
