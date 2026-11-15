@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 public class SearchNilai04 {
 
     public static void main(String[] args) {
@@ -24,7 +25,10 @@ public class SearchNilai04 {
             }
         }
         if (!ditemukan) {
-            System.out.println("Nilai " + key + "tidak ditemukan.");
+            System.out.println("Nilai yang dicari tidak ditemukan.");
+            System.out.println("Key yang dicari: " + key);
+            System.out.println("Isi array: " + Arrays.toString(nilai));
+            System.out.println("Jumlah elemn dicek: " + nilai.length );
         }
     }
 }
